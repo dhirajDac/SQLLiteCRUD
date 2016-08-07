@@ -65,7 +65,5 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("Main_Activity","Row "+_id+","+name+","+email);
             }while (cursor.moveToNext());
         }
-
-
     }
 }
